@@ -1,0 +1,211 @@
+/* CSS Document */
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#1b2d4c;
+	line-height:18px;
+}
+td, p {
+	margin:0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#1b2d4c;
+	font-size:14px;
+	line-height:18px;
+}
+#content {
+	position:relative;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:1200px;
+	border:1px solid #555555;
+}
+#logo {
+	position:relative;
+	margin-top:0px;
+	margin-left:0px;
+	height:106px;
+	width:417px;
+}
+#data {
+	position:absolute;
+	margin:0px;
+	top:0px;
+	right:0px;
+	width:500px;
+	float:right;
+	text-align:right;
+	font-style:italic;
+	padding:10px;
+	font-size:12px;
+}
+#menu {
+	color:#ffffff;
+	width:1200px;
+	background-color:#1b2d4c;
+}
+#menu td {
+	color:#ffffff;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px 0px 5px 0px;
+}
+#header {
+	position:relative;
+	margin-top:0px;
+	margin-left:0px;
+	padding:25px;
+	font-size:21px;
+	text-align:center;
+	font-weight:bold;
+}
+#main {
+	position:relative;
+	margin-top:0px;
+	margin-left:0px;
+}
+#test {
+	position:relative;
+	margin-top:0px;
+	margin-left:350px;
+	width:500px;
+	background-color:#cc0000;
+	padding:10px;
+}
+#test p {
+	color:#ffffff;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+#leftColumn {
+	position:absolute;
+	margin:0px;
+	width:225px;
+	background-color:#dddddd;
+	height:490px;
+	font-weight:bold;
+	padding:10px 0px 0px 0px;
+}
+#leftColumn ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px 0px 10px 0px;
+}
+#leftColumn li {
+	margin:0px;
+	padding:5px 0px 0px 25px;
+}
+#rightColumn {
+	position:relative;
+	margin-top:0px;
+	margin-left:225px;
+	height:500px;
+	width:750px;
+}
+#copyright {
+	position:relative;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	padding:10px;
+	text-align:center;
+}
+a.nav, a.nav:link, a.nav:active {
+	text-decoration:none;
+	color:#0e52c3;
+}
+a.nav:hover {
+	color:#9bc200;
+	text-decoration:underline;
+}
+a.menu, a.menu:link, a.menu:active {
+	text-decoration:none;
+	color:#ffffff;
+}
+a.menu:hover {
+	color:#9bc200;
+	text-decoration:underline;
+}
+.selected {
+	background-color:#0e52c3;
+	color:#ffffff;
+}
+a.selected, a.selected:link, a.selected:active {
+	background-color:#0e52c3;
+	text-decoration:none;
+	color:#ffffff;
+}
+a.selected:hover {
+	color:#9bc200;
+	text-decoration:underline;
+}
+.required {
+	color:#cc0000;
+	font-size:11px;
+}
+.errmsg {
+	color:#cc0000;
+	font-weight:bold;
+	text-align:center;
+}
+.msg {
+	color:#009900;
+	font-weight:bold;
+	text-align:center;
+}
+.card_errmsg {
+	color:#cc0000;
+	font-weight:bold;
+	text-align:center;
+	padding-top:10px;
+}
+.success {
+	color:#009900;
+	font-weight:bold;
+	text-align:center;
+	padding-top:10px;
+}
+.header {
+	font-weight:bold;
+	background-color:#0e52c3;
+	color:#ffffff;
+	border-bottom:1px solid #555555;
+}
+.searchHeader {
+	font-weight:bold;
+	background-color:#9bc200;
+	color:#ffffff;
+	border-bottom:1px solid #555555;
+}
+.even {
+	background-color:#eeeeee;
+}
+.odd {
+	background-color:#ffffff;
+}
+.highlight {
+	background-color:#9bc200;
+}
+.approved {
+	color:#339900;
+	font-weight:bold;
+}
+.declined {
+	color:#cc0000;
+	font-weight:bold;
+}
+.pending {
+	color:#9933cc;
+	font-weight:bold;
+}
+.cancelled {
+	color:#3399ff;
+	font-weight:bold;
+}
+.chargeback {
+	color:#000000;
+	font-weight:bold;
+}

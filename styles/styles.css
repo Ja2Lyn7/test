@@ -1,0 +1,155 @@
+/* CSS Document */
+body {
+	margin:0px;
+	padding:0px;
+	background-color:#ffffff;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#333333;
+	text-align:justify;
+	line-height:18px;
+}
+td, p {
+	margin:0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#333333;
+	font-size:14px;
+	text-align:justify;
+	line-height:18px;
+	padding-top:25px;
+}
+
+#container {
+	position:relative;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:1224px;
+	background-color:#dadada;
+}
+
+#menu {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:295px;
+	height:100%;
+	background-color:#333333;
+	color:#ffffff;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+.menuItem {
+	border-bottom:1px solid #515151;
+}
+
+#search {
+	position:relative;
+	margin-top:10px;
+	margin-left:0px;
+	width:296px;
+	text-align:center;
+}
+
+#header {
+	position:relative;
+	margin-top:0px;
+	margin-left:296px;
+	width:928px;
+	height:72px;	
+	background-color:#ffffff;
+}
+
+#logo {
+	position:relative;
+	margin-top:0px;
+	margin-left:10px;
+	width:283px;
+	height:71px;
+}
+
+#logout {
+	position:absolute;
+	top:15px;
+	right:25px;
+	float:right;
+}
+
+#content {
+	position:relative;
+	margin-top:0px;
+	margin-left:296px;
+	padding:25px;
+}
+
+#footer {
+	position:relative;
+	margin-top:0px;
+	margin-right:0px;
+	float:right;
+	width:1224px;
+	text-align:right;
+	font-size:12px;
+	margin:0 25px 25px 0 0;
+}
+
+a.footer, a.footer:link, a.footer:active {
+	text-decoration:none;
+	color:#333333;
+}
+a.footer:hover {
+	text-decoration:underline;
+}
+
+input[type=text] {
+	border-radius:5px;
+	height:20px;
+	font-size:14px;
+}
+
+input[type=password] {
+	border-radius:5px;
+	height:20px;
+	font-size:14px;
+}
+
+input select {
+	height:50px;
+}
+
+#searchbutton {
+	width:267px;
+	height:45px;
+}
+
+h1 {
+	font-size:24px;
+	font-weight:normal;
+}
+
+.msg {
+	color:#3bb03e;
+}
+
+.errmsg {
+	color:#cc0000;
+}
+
+.tableHeader {
+	font-weight:bold;
+	color:#4284d0;
+	vertical-align:middle;
+	padding:10px;
+}
+
+.tableBorder {
+	border-top:1px solid #8d8d8d;
+	vertical-align:middle;
+	padding:10px;
+}
+
+.highlight {
+	background-color:#8d8d8d;
+}

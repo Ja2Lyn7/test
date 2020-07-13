@@ -1,0 +1,15 @@
+{
+  "name": "utc/ui",
+  "description": "UTC IAM User Interface",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jamie Melo",
+      "email": "jamie.melo@utc.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "v6.1.6"
+  }
+}
